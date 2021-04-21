@@ -1,0 +1,9 @@
+Espelho	KEYWORD1
+tiltDownMode KEYWORD2
+normalMode KEYWORD2
+up KEYWORD2
+down KEYWORD2
+left KEYWORD2
+right KEYWORD2
+enableTiltDown KEYWORD2
+timeToDisable KEYWORD2
