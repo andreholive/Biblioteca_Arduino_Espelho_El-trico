@@ -31,6 +31,8 @@ void restorePositions(){
 //CONSTRUTOR
 Espelho::Espelho(int pin1, int pin2, int addr1, int addr2)
 {
+	espelhos[EspelhoCount] = this;
+	EspelhoCount++;
 	this->pin1 = pin1;
   	this->pin2 = pin2;
 	this->addr1 = addr1;
@@ -41,6 +43,8 @@ Espelho::Espelho(int pin1, int pin2, int addr1, int addr2)
 //CONSTRUTOR PASSANDO POSIÇÃO MINIMA E MÁXIMA
 Espelho::Espelho(int pin1, int pin2, int addr1, int addr2, uint8_t min, uint8_t max)
 {
+	espelhos[EspelhoCount] = this;
+	EspelhoCount++;
 	this->pin1 = pin1;
   	this->pin2 = pin2;
 	this->addr1 = addr1;
