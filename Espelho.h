@@ -60,5 +60,6 @@ private:
 	void goToTiltdownPosition();
 	void loadPosition();
 	void loadTiltDownPosition();
+	void restorePosition();
 };
 #endif
