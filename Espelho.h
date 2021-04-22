@@ -30,6 +30,7 @@ public:
 	void right();
 	void enableTiltDown(int addr3, int addr4);
 	void timeToDisable();
+	void restorePosition();
 private:
 	Servo servoX;
 	Servo servoY;
@@ -60,6 +61,5 @@ private:
 	void goToTiltdownPosition();
 	void loadPosition();
 	void loadTiltDownPosition();
-	void restorePosition();
 };
 #endif
