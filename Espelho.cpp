@@ -19,6 +19,14 @@
 #define DELAY 100
 #define SECONDS_TO_DISABLE 5000
 
+static Espelho *espelhos[2];
+uint8_t EspelhoCount = 0;
+
+void restorePositions(){
+	for(int i=0; i < EspelhoCount; i++){
+		espelhos[i]->restorePosition();
+	}
+}
 
 //CONSTRUTOR
 Espelho::Espelho(int pin1, int pin2, int addr1, int addr2)
