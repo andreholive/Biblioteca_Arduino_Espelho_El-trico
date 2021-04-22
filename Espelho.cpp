@@ -148,6 +148,13 @@ void Espelho::loadTiltDownPosition()
 	}
 }
 
+//RESTAURA POSIÇÕES DOS ESPELHOS
+void Espelho::restorePosition(){
+	if(!this->inTiltDownMode){
+		this->goToNormalPosition();
+	}
+}
+
 //MOVE O ESPELHO PRA POSIÇÂO NORMAL
 void Espelho::goToNormalPosition()
 {
