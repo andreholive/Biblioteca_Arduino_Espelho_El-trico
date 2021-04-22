@@ -15,6 +15,8 @@
 #define Espelho_h
 #include "Servo.h"
 
+void restorePositions();
+
 class Espelho
 {
 public:
