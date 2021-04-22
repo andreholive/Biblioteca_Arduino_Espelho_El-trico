@@ -1,3 +1,16 @@
+/*
+ Espelho.cpp - Biblioteca Arduino para controle de espelhos elétricos utilizando servos motores.
+ Copyright (c) 2021 André Olive.  Todos os direitos reservados.
+
+ Esta Biblioteca é um software livre; você pode redistribuir ou
+ modificar-la livremente.  
+
+ Esta Biblioteca foi desenvolvida com a esperança de ser útil,
+ mas SEM NENHUMA GARANTIA; seu funcionamento foi testado e se mostrou
+ funcional.
+
+ */
+
 #ifndef Espelho_h
 #define Espelho_h
 #include "Servo.h"
